@@ -1,0 +1,148 @@
+{
+	"title": "Đại Việt Sử Ký",
+	"characterPage": {
+		"introduce": {
+			"title": "Giới thiệu nhân vật",
+			"paragraphOne": "Tướng tài với sáu chữ 'vàng Phá cường địch, báo hoàng ân'. Vị tướng trẻ tuổi mang trong mình lòng yêu nước, lòng quả cảm và ý chí kiên cường.",
+			"paragraphTwo": "Trần Quốc Toản với giai thoại nổi tiếng bóp nát quả cam tại hội nghị Bình Than do trẻ tuổi không được tham gia để bàn việc quân. Không nản lòng Trần Quốc Toản đã tự tập hợp binh lính, rèn luyện binh khí đứng lên khởi nghĩa chống giặc ngoại xâm.",
+			"paragraphThree": "Sau với ý chí kiên cường ông được phong tước Hầu Văn Vương và sát nhập binh lính cùng tham gia khởi nghĩa."
+		},
+		"skill": {
+			"title": "Kĩ năng",
+			"ulti": "Tuyệt chiêu",
+			"intrinsic": {
+				"title": "Nội Tại",
+				"content": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh."
+			},
+			"activated": {
+				"title": "Kích hoạt",
+				"content": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh."
+			}
+		}
+	},
+	"homePage": {
+		"footer": {
+			"about": {
+				"title": "Về chúng tôi",
+				"whitePaperEN": "White paper (EN)",
+				"whitePaperTaiwan": "White paper (Taiwan)",
+				"contact": "Liên hệ: 1900.30.25"
+			},
+			"fAQ": {
+				"title": "FAQ",
+				"feedback": "Phản hồi",
+				"termsAndConditions": "Điều khoản và điều kiện"
+			},
+			"social": {
+				"title": "Mạng xã hội"
+			}
+		},
+		"character": {
+			"introduce": "Mệnh danh “Bình Bắc Đại Nguyên Soái”, là nhà quân sự thiên tài, nhà chính trị vẹn toàn tài đức",
+			"imgAlt": "Hình Ảnh Trần Hưng Đạo",
+			"content1": "- Ông nổi tiếng với học vấn rất uyên bác, vừa giỏi văn chương vừa hiểu thấu lục thao tam lược, cưỡi ngựa, bắn cung đều thành thạo",
+			"content2": "- Ba lần cầm quân phá tan quân Nguyên Mông xâm lược nước ta.",
+			"content3": "- Bên cạnh tư tưởng quân sự kiệt xuất, Trần Quốc Tuấn còn nêu một tấm gương về lòng trung nghĩa sáng suốt, biết gạt bỏ mọi hiềm khích riêng để đoàn kết các tôn thất và tướng tá trong triều nhằm phò vua giúp nước, đánh bại kẻ thù.",
+			"seeDetails":"Xem chi tiết"
+		},
+		"partnerAndSponsor": {
+			"title": "ĐỐI TÁC VÀ TÀI TRỢ",
+			"partner1": "ĐỐI TÁC 1",
+			"partner2": "ĐỐI TÁC 2",
+			"partner3": "ĐỐI TÁC 3",
+			"partner4": "ĐỐI TÁC 4",
+			"partnerContent": "Lorem ipsum dolor sit amet consectetur. Augue odio cursus pretium phasellus dapibus. Ullamcorper sed sem enim quam. Elit nunc habitasse sit tortor metus."
+		},
+		"developmentTeam": {
+			"title": "ĐỘI NGŨ PHÁT TRIỂN",
+			"info1": "Thông tin 1",
+			"info2": "Thông tin 2",
+			"info3": "Thông tin 3"
+		},
+		"launchRoadmap": {
+			"title": "LỘ TRÌNH RA MẮT",
+			"quarter1": "Quý 1",
+			"quarter1Introduce": "05/01: Đại Việt Sử Ký - khí thế anh hùng / giới thiệu dòng game lịch sử Đại Việt Sử Ký - mang đậm khí thế anh hùng.",
+			"quarter1OpenBeta": "05/01: Game Đại Việt Sử Ký chính thức open beta.",
+			"quarter1Launch": "25/02: Tưng bừng ra mắt chính thức Đại Việt Sử Ký.",
+			"quarter2": "Quý 2",
+			"quarter2Launch": "25/04: Ra mắt tính năng mở rộng nông trại.",
+			"quarter2Function": "25/06: Chức năng giao tranh chính thức lộ diện.",
+			"quarter3": "Quý 3"
+		},
+		"rewards": {
+			"skill1": "Kỹ năng 1",
+			"skill2": "Kỹ năng 2",
+			"skill3": "Kỹ năng 3",
+			"skill4": "Kỹ năng 4",
+			"technique": "Tuyệt chiêu",
+			"demonstrationVideo": "Video ngắn minh hoạ kỹ năng",
+			"internal": "Nội tại",
+			"internalContent": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh.",
+			"active": "Kích hoạt",
+			"activeContent": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh.",
+			"title": "Phần thưởng",
+			"tournament": "Giải đấu",
+			"pVP": "PVP",
+			"loginReceiveRewards": "Đăng nhập nhận thưởng",
+			"upgrade": "Tăng cấp",
+			"battleWithMonsters": "Chiến đấu với quái vật",
+			"bossBattle": "Chiến đầu trùm cuối"
+		},
+		"introduce": {
+			"title": "Giới thiệu trò chơi",
+			"paragraphOne": "Đại Việt sử ký toàn thư là bộ chính sử Việt Nam xưa nhất còn tồn tại nguyên vẹn đến ngày nay, là di sản vô giá của văn hóa dân tộc Việt Nam.",
+			"paragraphTwo": " Với sứ mệnh mang lịch sự đến gần với giới trẻ Việt Nam một cách chân thực, gần gũi và mới mẻ nhất. Đội ngũ Vietsmile đã phát hành game lịch sử Việt Nam mang tên Đại Việt sử ký vào tháng 2 năm 2024, Đại Việt Sử Ký cho phép người chơi hóa thân thành các tướng anh hùng Đại Việt, game thủ cần vận dụng trí thông minh, tài mưu lược cùng các kỹ năng điêu luyện để trực tiếp xây dựng giang sơn, mở rộng bờ cõi đất Việt, điều hành đất nước và nhân dân ấm no, hạnh phúc; trực tiếp chinh chiến chống giặc ngoại xâm.",
+			"paragraphThree": "Đặc biệt với dòng game lịch sử Việt Nam, đội ngũ sản xuất đã thiết kế riêng những dấu ấn mang đậm bản sắc dân tộc như: nhà sàn; nón lá;lũy tre; chim hồng hạc; trang phục áo dài; trang phục tướng quân Việt Nam xưa."
+		},
+		"news": {
+			"title": "Tin tức",
+			"tab": {
+				"news": {
+					"title": "TIN TỨC",
+					"notiOne": "Chức năng giao tranh chính thức lộ diện.",
+					"notiTwo": "Ra mắt tính năng mở rộng nông trại.",
+					"notiThree": "Tưng bừng ra mắt chính thức Đại Việt Sử Ký",
+					"notiFour": "Đại Việt Sử Ký open beta",
+					"notiFive": "Giới thiệu dòng game Đại Việt Sử Ký"
+				},
+				"event": {
+					"title": "SỰ KIỆN",
+					"notiOne": "",
+					"notiTwo": "",
+					"notiThree": ""
+				},
+				"community": {
+					"title": "CỘNG ĐỒNG",
+					"notiOne": "",
+					"notiTwo": "",
+					"notiThree": ""
+				}
+			}
+		},
+		"figure": {
+			"title": "Nhân Vật"
+		}
+	},
+	"diverseCharacters": {
+		"title": "Nhân vật đa dạng",
+		"subTitle": "Hệ thống trò chơi với hơn 20+ nhân vật, hãy chọn ra  nhân vật phù hợp nhất với bạn",
+		"searchPlaceholder": "Tìm kiếm theo tên",
+		"strength": "Sức mạnh"
+	},
+	"comingSoon": {
+		"title": "SẮP RA MẮT!",
+		"notifyContent": "Hiện tại tính năng này chưa ra mắt",
+		"notifySubContent": "Chúng tôi sẽ cố gắng hoàn thiện trong thời gian sớm nhất",
+		"comeBackContent": "Bạn hãy quay lại sau nhé"
+	},
+	"header": {
+		"home": "TRANG CHỦ",
+		"news": "TIN TỨC",
+		"battlefield": "THƯƠNG TRƯỜNG",
+		"contact": "LIÊN HỆ",
+		"figure": "NHÂN VẬT",
+		"partner":"ĐỐI TÁC",
+		"warning": "Chơi game quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khoẻ"
+	}
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Dai Viet Su Ky",
+	"characterPage": {
+    "introduce": {
+      "title": "Character Introduction",
+      "paragraphOne": "A talented general with the motto 'Defeat the enemy, report gratitude to the emperor.' This young general possesses a love for the country, courage, and strong determination.",
+      "paragraphTwo": "Tran Quoc Toan, known for the famous legend of squeezing an orange at the Binh Than Conference, where he was not allowed to discuss military matters due to his young age. Undeterred, Tran Quoc Toan gathered soldiers, trained his troops, and led a rebellion against foreign invaders.",
+      "paragraphThree": "With his strong determination, he was conferred the title of Hau Van Vuong and merged his forces to participate in the rebellion."
+		},
+    "skill": {
+      "title": "Skills",
+      "ulti": "Ultimate Move",
+      "intrinsic": {
+          "title": "Intrinsic",
+          "content": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh."
+      },
+      "activated": {
+          "title": "Activated",
+          "content": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh."
+      }
+    }
+	},
+  "homePage": {
+    "footer": {
+      "about": {
+        "title": "About Us",
+        "whitePaperEN": "White paper (EN)",
+        "whitePaperTaiwan": "White paper (Taiwan)",
+        "contact": "Contact: 1900.30.25"
+      },
+      "fAQ": {
+        "title": "FAQ",
+        "feedback": "Feedback",
+        "termsAndConditions": "Terms and Conditions"
+      },
+      "social": {
+        "title": "Social Media"
+      }
+    },
+		"character": {
+			"introduce": "Known as the 'Northern Guardian Grand Commander,' Tran Hung Dao is a military genius and a virtuous and accomplished political figure.",
+			"imgAlt": "Image of Tran Hung Dao",
+			"content1": "- He is renowned for his extensive knowledge and eloquence, excelling in both literature and a deep understanding of military strategy. Proficient in horse riding and archery, he is a master of the art of warfare.",
+			"content2": "- Three times, he led the army to defeat the Mongol invaders, thwarting their attempts to invade our country.",
+			"content3": "- In addition to his outstanding military prowess, Tran Quoc Tuan is also an exemplary figure of loyalty and wisdom. He knows how to set aside personal grievances to unite all nobles and generals in the court to serve the king and help the nation defeat its enemies.",
+			"seeDetails":"See details"
+		},
+    "partnerAndSponsor": {
+      "title": "Partners and Sponsors",
+      "partner1": "Partner 1",
+      "partner2": "Partner 2",
+      "partner3": "Partner 3",
+      "partner4": "Partner 4",
+      "partnerContent": "Lorem ipsum dolor sit amet consectetur. Augue odio cursus pretium phasellus dapibus. Ullamcorper sed sem enim quam. Elit nunc habitasse sit tortor metus."
+    },
+    "developmentTeam": {
+      "title": "Development Team",
+      "info1": "Information 1",
+      "info2": "Information 2",
+      "info3": "Information 3"
+    },
+    "launchRoadmap": {
+      "title": "Launch Roadmap",
+      "quarter1": "Quarter 1",
+      "quarter1Introduce": "05/01: Dai Viet Su Ky - The heroic history / Introduction of the historical game series Dai Viet Su Ky - imbued with the heroic atmosphere.",
+      "quarter1OpenBeta": "05/01: Official open beta of Dai Viet Su Ky game.",
+      "quarter1Launch": "25/02: Grand launch of Dai Viet Su Ky.",
+      "quarter2": "Quarter 2",
+      "quarter2Launch": "25/04: Launch of the expanded farm feature.",
+      "quarter2Function": "25/06: Official reveal of the battle function.",
+      "quarter3": "Quarter 3"
+    },
+    "rewards": {
+      "skill1": "Skill 1",
+      "skill2": "Skill 2",
+      "skill3": "Skill 3",
+      "skill4": "Skill 4",
+      "technique": "Technique",
+      "demonstrationVideo": "Short video illustrating skills",
+      "internal": "Internal",
+      "internalContent": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh.",
+      "active": "Active",
+      "activeContent": "Lorem ipsum dolor sit amet consectetur. Venenatis netus rhoncus nullam ullamcorper. Amet dictum laoreet ultrices scelerisque sed erat. Massa fermentum nec quis nisi dignissim ipsum cras pellentesque. Leo facilisis sagittis risus ac in. Ac maecenas mauris eu sed etiam viverra nunc nibh.",
+      "title": "Rewards",
+      "tournament": "Tournament",
+      "pVP": "PVP",
+      "loginReceiveRewards": "Login to receive rewards",
+      "upgrade": "Upgrade",
+      "battleWithMonsters": "Battle with monsters",
+      "bossBattle": "Boss battle"
+    },
+    "introduce": {
+			"title": "Introduction to the Game",
+			"paragraphOne": "The Complete Annals of Dai Viet is the oldest surviving official history of Vietnam, a priceless heritage of the Vietnamese culture that has endured to this day.",
+			"paragraphTwo": "With a mission to bring history closer to the youth of Vietnam in a genuine, intimate, and fresh way, the Vietsmile team released the historical game titled Dai Viet Su Ky in February 2024. Dai Viet Su Ky allows players to embody the heroic generals of Đại Việt. Gamers must apply intelligence, strategic acumen, and refined skills to directly build their empire, expand the Vietnamese territory, govern the nation, ensure the well-being and happiness of the people, and engage in direct battles against foreign invaders.",
+			"paragraphThree": "Especially tailored for the historical games genre in Vietnam, the production team has designed distinctive cultural elements, such as stilt houses, conical hats, bamboo flutes, red-crowned cranes, traditional áo dài costumes, and the attire of ancient Vietnamese generals."
+			},
+			"news": {
+			"title": "News",
+			"tab": {
+				"news": {
+				"title": "NEWS",
+				"notiOne": "Officially revealing the combat function.",
+				"notiTwo": "Launching the expanded farm feature.",
+				"notiThree": "Grand launch of Dai Viet Su Ky.",
+				"notiFour": "Dai Viet Su Ky open beta",
+				"notiFive": "Introduction of the game series Dai Viet Su Ky"
+				},
+				"event": {
+					"title": "EVENTS",
+					"notiOne": "",
+					"notiTwo": "",
+					"notiThree": ""
+				},
+        "community": {
+          "title": "COMMUNITY",
+          "notiOne": "",
+          "notiTwo": "",
+          "notiThree": ""
+        }
+      }
+    },
+    "figure": {
+      "title": "Character"
+    }
+  },
+  "diverseCharacters": {
+    "title": "Diverse Characters",
+    "subTitle": "Game system with over 20+ characters, choose the one that suits you best",
+    "searchPlaceholder": "Search by name",
+    "strength": "Strength"
+  },
+  "comingSoon": {
+    "title": "Coming-soon!",
+    "notifyContent": "Currently this feature has not been released",
+    "notifySubContent": "We will try to complete it as soon as possible",
+    "comeBackContent": "Please come back later"
+  },
+  "header": {
+    "home": "HOME",
+		"news": "NEWS",
+		"battlefield": "BATTLEFIELD",
+		"contact": "CONTACT",
+		"figure": "CHARACTERS",
+		"partner": "PARTNERS",
+		"warning": "Playing games for more than 180 minutes a day can have adverse effects on health."
+  }
+}
