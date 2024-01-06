@@ -10,7 +10,7 @@ export const Logo = () => {
     <Link className=" xs:h-12 lg:h-[60px] w-[236px] z-20" href={"/"}>
       <img
         className="w-full h-full "
-        src={`${getStaticURL()}/assets/images/logo.png`}
+        src={`assets/images/logo.png`}
         alt="metamask"
       />
     </Link>
