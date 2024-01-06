@@ -48,7 +48,7 @@ const Header = ({ headerStyle }: { headerStyle?: string }) => {
          
         </div>
         <div className="w-[236px] flex justify-end">
-          <img src={`${window.location.origin}/assets/images/right_image.png`} alt="" />
+          <img src={`assets/images/right_image.png`} alt="" />
         </div>
       </nav>
       

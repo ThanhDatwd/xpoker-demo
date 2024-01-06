@@ -13,6 +13,7 @@ const PageContact = () => {
   const { t } = useTranslation();
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+  console.log("ádasdas",window.location.host)
   return (
     <DefaultLayout
       pageTitle="Dashboard"
@@ -30,7 +31,7 @@ const PageContact = () => {
           <LazyLoad once={true} placeholder={<Loader />}>
             <img
               className="w-[100vw] h-[100vh]"
-              src={`${window.location.origin}/assets/images/background.jpg`}
+              src={`assets/images/background.jpg`}
               alt="logo"
             />
           </LazyLoad>
@@ -43,19 +44,19 @@ const PageContact = () => {
           >
             <img
               className="w-[100%] "
-              src={`${window.location.origin}/assets/images/contact_us.png`}
+              src={`assets/images/contact_us.png`}
               alt="logo"
             />
           </LazyLoad> */}
           <div className="relative w-[400px] rounded-lg mt-16">
             <img
               className="z-2 w-[120px] h-[120px] absolute top-[0%] left-[50%] translate-x-[-50%] translate-y-[-50%] "
-              src={`${window.location.origin}/assets/images/logo_circle.png`}
+              src={`assets/images/logo_circle.png`}
               alt="logo"
             />
             <img
               className=" absolute top-0 left 0 w-full h-full rounded-lg "
-              src={`${window.location.origin}/assets/images/contact_form.jpg`}
+              src={`assets/images/contact_form.jpg`}
               alt="logo"
             />
             <div className=" absolute top-0  z-1 bg-gradient-to-b from-black via-transparent to-transparent bg-opacity-20 w-full h-[400px] rounded-lg"></div>
