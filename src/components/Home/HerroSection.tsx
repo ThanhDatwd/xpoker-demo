@@ -70,15 +70,13 @@ export const HerroSection = () => {
             return '<span class="' + className + '">' + "</span>";
           },
         }}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
         navigation={{
           prevEl: prevRef.current,
           nextEl: nextRef.current,
         }}
-        // allowTouchMove={false}
+        autoplay={{
+          delay: 2500,
+        }}
       >
         <SwiperSlide>
           <div className="w-full h-full ">
