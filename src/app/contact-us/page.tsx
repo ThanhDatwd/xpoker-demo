@@ -13,7 +13,6 @@ const PageContact = () => {
   const { t } = useTranslation();
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-  console.log("ádasdas",window.location.host)
   return (
     <DefaultLayout
       pageTitle="Dashboard"
