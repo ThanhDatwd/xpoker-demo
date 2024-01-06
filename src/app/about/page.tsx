@@ -29,7 +29,7 @@ const PageAbout = () => {
           <LazyLoad once={true} placeholder={<Loader />}>
             <img
              className="w-[100vw] h-[100vh]"
-              src={`${getStaticURL()}/assets/images/background.jpg`}
+              src={`${window.location.origin}/assets/images/background.jpg`}
               alt="logo"
             />
           </LazyLoad>
@@ -38,7 +38,7 @@ const PageAbout = () => {
           <LazyLoad once={true} placeholder={<Loader />}>
             <img
             className="w-[100%] h-[100%]"
-              src={`${getStaticURL()}/assets/images/about_banner.png`}
+              src={`${window.location.origin}/assets/images/about_banner.png`}
               alt="logo"
             />
           </LazyLoad>

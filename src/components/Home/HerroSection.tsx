@@ -32,19 +32,19 @@ export const HerroSection = () => {
           <div className="flex items-center z-20 justify-center gap-4 flex-wrap ">
             <Link href={"/coming-soon"}>
               <img
-                src={`${getStaticURL()}/assets/images/download_ios.png`}
+                src={`${window.location.origin}/assets/images/download_ios.png`}
                 alt=""
               />
             </Link>
             <Link href={"/coming-soon"}>
               <img
-                src={`${getStaticURL()}/assets/images/download_android.png`}
+                src={`${window.location.origin}/assets/images/download_android.png`}
                 alt=""
               />
             </Link>
             <Link href={"/coming-soon"}>
               <img
-                src={`${getStaticURL()}/assets/images/download_windows.png`}
+                src={`${window.location.origin}/assets/images/download_windows.png`}
                 alt=""
               />
             </Link>
@@ -83,7 +83,7 @@ export const HerroSection = () => {
         <SwiperSlide>
           <div className="w-full h-full ">
             <img
-              src={`${getStaticURL()}/assets/images/banner_1.png`}
+              src={`${window.location.origin}/assets/images/banner_1.png`}
               className="w-full h-full"
               alt=""
             />
@@ -92,7 +92,7 @@ export const HerroSection = () => {
         <SwiperSlide>
           <div className="w-full h-full">
             <img
-              src={`${getStaticURL()}/assets/images/banner_2.jpg`}
+              src={`${window.location.origin}/assets/images/banner_2.jpg`}
               className="w-full h-full"
               alt=""
             />
@@ -101,7 +101,7 @@ export const HerroSection = () => {
         <SwiperSlide>
           <div className="w-full h-full">
             <img
-              src={`${getStaticURL()}/assets/images/banner_3.jpg`}
+              src={`${window.location.origin}/assets/images/banner_3.jpg`}
               className="w-full h-full"
               alt=""
             />
