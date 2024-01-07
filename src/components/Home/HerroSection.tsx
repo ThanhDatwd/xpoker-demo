@@ -27,52 +27,22 @@ export const HerroSection = () => {
         height: "100vh",
       }}
     >
-      <div className="absolute bottom-[10px] w-full flex flex-col justify-end items-center ">
-        <div className="flex items-center flex-col z-20 justify-center gap-[60px] flex-wrap">
-          <div className="flex items-center z-20 justify-center gap-4 flex-wrap ">
-            <Link href={"/coming-soon"}>
-              <img
-                src={`assets/images/download_ios.png`}
-                alt=""
-              />
-            </Link>
-            <Link href={"/coming-soon"}>
-              <img
-                src={`assets/images/download_android.png`}
-                alt=""
-              />
-            </Link>
-            <Link href={"/coming-soon"}>
-              <img
-                src={`assets/images/download_windows.png`}
-                alt=""
-              />
-            </Link>
-          </div>
-          <div className="flex flex-col items-center justify-end">
-            <span className="text-[10px] text-[#D2D7E5]">
-              Privacy Policy | Term of Use
-            </span>
-            <span className="text-[10px] text-[#D2D7E5]">
-              Copyright (C) 2019-2021 X-Poker. All Rights Reserved.
-            </span>
-          </div>
-        </div>
-      </div>
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper relative z-[100]"
+        className="mySwiper"
         loop={true}
+       
+        navigation={true}
+        // navigation={{
+        //   prevEl: prevRef.current,
+        //   nextEl: nextRef.current,
+        // }}
         pagination={{
           el: ".swiper-pagination",
           clickable: true,
           renderBullet: function (index: number, className: any) {
             return '<span class="' + className + '">' + "</span>";
           },
-        }}
-        navigation={{
-          prevEl: prevRef.current,
-          nextEl: nextRef.current,
         }}
         autoplay={{
           delay: 2500,
@@ -117,7 +87,40 @@ export const HerroSection = () => {
         >
           <ArrowRightIcon color="#6B0E01" />{" "}
         </button>
-        <div className=" absolute z-[101] bottom-[70px]  w-full swiper-pagination"></div>
+        
+        <div className="absolute bottom-[10px] w-full flex flex-col justify-end items-center ">
+        <div className="flex items-center flex-col z-10 justify-center gap-[60px] flex-wrap">
+          <div className="flex items-center z-20 justify-center gap-4 flex-wrap ">
+            <Link href={"/coming-soon"}>
+              <img
+                src={`assets/images/download_ios.png`}
+                alt=""
+              />
+            </Link>
+            <Link href={"/coming-soon"}>
+              <img
+                src={`assets/images/download_android.png`}
+                alt=""
+              />
+            </Link>
+            <Link href={"/coming-soon"}>
+              <img
+                src={`assets/images/download_windows.png`}
+                alt=""
+              />
+            </Link>
+          </div>
+          <div className="w-full swiper-pagination"></div>
+          <div className="flex flex-col items-center justify-end">
+            <span className="text-[10px] text-[#D2D7E5]">
+              Privacy Policy | Term of Use
+            </span>
+            <span className="text-[10px] text-[#D2D7E5]">
+              Copyright (C) 2019-2021 X-Poker. All Rights Reserved.
+            </span>
+          </div>
+        </div>
+      </div>
       </Swiper>
     </div>
   );

@@ -303,7 +303,7 @@ input:-webkit-autofill {
 	align-items: center;
 	position: absolute !important;
 	width: 100% !important;
-	bottom: 70px !important;
+	bottom: 60px !important;
 }
 
 .swiper-pagination span {
