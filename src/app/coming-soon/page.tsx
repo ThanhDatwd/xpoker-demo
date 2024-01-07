@@ -20,7 +20,7 @@ export default function ComingSoon() {
         <div
           className="relative flex flex-col gap-[22px] xs:items-center justify-center text-[40px] w-full h-[100vh] xs:px-4 xs:py-8 xs:mt-0 bg-cover "
           style={{
-            backgroundImage: `url('${getStaticURL()}/assets/images/background.jpg')`,
+            backgroundImage: `url('assets/images/background.jpg')`,
             backgroundPosition: "center",
           }}
         >
