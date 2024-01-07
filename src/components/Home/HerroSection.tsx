@@ -74,9 +74,9 @@ export const HerroSection = () => {
           prevEl: prevRef.current,
           nextEl: nextRef.current,
         }}
-        autoplay={{
-          delay: 2500,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        // }}
       >
         <SwiperSlide>
           <div className="w-full h-full ">
