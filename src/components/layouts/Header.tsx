@@ -67,7 +67,11 @@ const Header = ({ headerStyle }: { headerStyle?: string }) => {
           </Link>
         </div>
         <div className="w-[236px] flex justify-end">
-          <img className=" xs:hidden md:block" src={`assets/images/right_image.png`} alt="" />
+          <img
+            className=" xs:hidden md:block"
+            src={`assets/images/right_image.png`}
+            alt=""
+          />
           <div className=" md:hidden p-2 cursor-pointer " onClick={toggleMenu}>
             <MenuIcon color="#fff" />
           </div>
@@ -86,29 +90,47 @@ const Header = ({ headerStyle }: { headerStyle?: string }) => {
               <CloseIcon color="#111" />
             </div>
             <div className="flex items-center justify-between gap-4 ">
-              <img src={`assets/images/right_image.png`} alt="" />
+              <img src={`assets/images/logo.png`} alt="" />
             </div>
           </div>
-          <div className="flex flex-col px-4">
+          <div className="flex flex-col px-4 pt-6">
             <Link
               href={"/"}
-              className={`relative block py-2 whitespace-nowrap text-start text-sm text-[#63B8E4] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100 hover:after:border-[#CEEAFF] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              className={`relative block py-2 whitespace-nowrap text-start text-[24px] text-[#63B8E4] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100 hover:after:border-[#CEEAFF] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
             >
               HOME
             </Link>
             <Link
               href={"/about"}
-              className={`relative block py-2 whitespace-nowrap text-start text-sm text-[#63B8E4] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100 hover:after:border-[#CEEAFF] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              className={`relative block py-2 whitespace-nowrap text-start text-[24px] text-[#63B8E4] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100 hover:after:border-[#CEEAFF] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
             >
               ABOUT
             </Link>
             <Link
               href={"/contact-us"}
-              className={`relative block py-2 whitespace-nowrap text-start text-sm text-[#63B8E4] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100 hover:after:border-[#CEEAFF] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
+              className={`relative block py-2 whitespace-nowrap text-start text-[24px] text-[#63B8E4] after:content-[''] after:block  after:absolute after:w-full after:border-t-2 after:border-[#1111]  after:bottom-[6px] after:left-0 after:scale-x-0 hover:after:scale-x-100 hover:after:border-[#CEEAFF] after:transition-transform after:transition-border-color after:duration-300 ease-out`}
             >
               CONTACT US
             </Link>
-           
+          </div>
+          <div className="px-4 py-8 flex items-center">
+              <div className="w-[70%]  h-[3px] bg-[#3f84a7]"></div>
+          </div>
+          <div className="px-4 py-2 flex flex-col gap-3">
+            <span className="text-start text-[24px] text-[#63B8E4]">CERTIFICATION</span>
+            <div className="flex-wrap w-full">
+              <img className="w-full" src={`assets/images/certified.png`} alt="" />
+            </div>
+          </div>
+
+
+          <div className="absolute w-full bottom-8 flex flex-col items-center ">
+            <span className="text-[12px] text-[#63B8E4] ">
+              Privacy Policy | Term of Use
+            </span>
+            <span className="text-[12px] text-[#63B8E4]">
+              Copyright (C) 2019-2021 X-Poker. All Rights Reserved.
+            </span>
           </div>
         </div>
       </div>

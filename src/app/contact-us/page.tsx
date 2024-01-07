@@ -9,6 +9,7 @@ import LazyLoad from "react-lazyload";
 import { IconFaceBook } from "@/assets/icons/IconFacebook";
 import { MailIcon } from "@/assets/icons/MailIcon";
 import Link from "next/link";
+import { TelegramIcon } from "@/assets/icons/TelegramIcon";
 
 const PageContact = () => {
   const { t } = useTranslation();
@@ -63,11 +64,14 @@ const PageContact = () => {
             <div className="relative z-10 w-full h-full flex flex-col justify-center items-center gap-8 py-24 px-16">
               <span className="text-[24px] font-bold text-white">X-POKER</span>
               <div className="flex flex-col justify-center items-center gap-10 px-[200px]">
-                <Link href={""} className="bg-white px-4 py-4 font-semibold cursor-pointer rounded w-full text-center flex items-center gap-3">
-                 <div className="mt-1"> <MailIcon /></div>
-                  <div className="w-full text-center text-[#5e6b84]">SPORT@X-POKER.NET</div>
+                <Link target="_blank" href={"https://t.me/xpksupport"} className="bg-white px-4 py-4 font-semibold cursor-pointer rounded w-full text-center flex items-center gap-3">
+                 <div className="mt-1"> 
+                 <TelegramIcon/>
+                 
+                 </div>
+                  <div className="w-full text-center text-[#5e6b84]">T.ME/XPKSUPPORT</div>
                 </Link>
-                <Link href={""} className="bg-[#447ef5] text-white px-4 py-4  font-semibold cursor-pointer rounded w-full text-center flex items-center gap-3">
+                <Link target="_blank" href={"https://www.facebook.com/XPokerglobal"} className="bg-[#447ef5] text-white px-4 py-4  font-semibold cursor-pointer rounded w-full text-center flex items-center gap-3">
                   <IconFaceBook />
                   FACEBOOK.COM/XPOKERGLOBAL
                 </Link>
