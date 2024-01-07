@@ -77,13 +77,13 @@ export const HerroSection = () => {
         </SwiperSlide>
         <button
           ref={nextRef}
-          className="xs:hidden md:block next-slider-xpoker absolute z-[100] top-[50%] right-[120px] -translate-y-[50%] rotate-180 hover:bg-[#ecf5ff98] rounded "
+          className=" next-slider-xpoker absolute z-[100] top-[50%] xs:right-[0px] md:right-[120px] -translate-y-[50%] rotate-180 hover:bg-[#ecf5ff98] rounded "
         >
           <ArrowRightIcon color="#6B0E01" />
         </button>
         <button
           ref={prevRef}
-          className="xs:hidden md:block prev-slider-xpoker absolute z-[100] top-[50%] left-[100px] -translate-y-[50%] hover:bg-[#ecf5ff98] rounded "
+          className=" prev-slider-xpoker absolute z-[100] top-[50%] xs:left-[0px] md:left-[100px] -translate-y-[50%] hover:bg-[#ecf5ff98] rounded "
         >
           <ArrowRightIcon color="#6B0E01" />{" "}
         </button>
