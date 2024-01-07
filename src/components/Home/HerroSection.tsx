@@ -32,11 +32,11 @@ export const HerroSection = () => {
         className="mySwiper"
         loop={true}
        
-        navigation={true}
-        // navigation={{
-        //   prevEl: prevRef.current,
-        //   nextEl: nextRef.current,
-        // }}
+        // navigation={true}
+        navigation={{
+          prevEl:".prev-slider-xpoker",
+          nextEl:".next-slider-xpoker",
+        }}
         pagination={{
           el: ".swiper-pagination",
           clickable: true,
@@ -77,13 +77,13 @@ export const HerroSection = () => {
         </SwiperSlide>
         <button
           ref={nextRef}
-          className="absolute z-[100] top-[50%] right-[120px] -translate-y-[50%] rotate-180 "
+          className="next-slider-xpoker absolute z-[100] top-[50%] right-[120px] -translate-y-[50%] rotate-180 "
         >
           <ArrowRightIcon color="#6B0E01" />
         </button>
         <button
           ref={prevRef}
-          className="absolute z-[100] top-[50%] left-[100px] -translate-y-[50%]  "
+          className="prev-slider-xpoker absolute z-[100] top-[50%] left-[100px] -translate-y-[50%]  "
         >
           <ArrowRightIcon color="#6B0E01" />{" "}
         </button>
