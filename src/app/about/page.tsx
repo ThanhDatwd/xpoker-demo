@@ -34,10 +34,10 @@ const PageAbout = () => {
             />
           </LazyLoad>
         </div>
-        <div className="absolute top-0 left-0 w-full h-full p-[100px] flex flex-col justify-center items-center ">
+        <div className="absolute top-0 left-0 w-full h-full lg:p-[100px] flex flex-col justify-center items-center ">
           <LazyLoad once={true} placeholder={<Loader />}>
             <img
-            className="w-[100%] h-[100%]"
+            className="w-[100%] h-[100%] xs:scale-150 md:scale-100"
               src={`assets/images/about_banner.png`}
               alt="logo"
             />

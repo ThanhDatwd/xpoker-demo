@@ -21,7 +21,7 @@ const PageContact = () => {
       headerStyle={"bg-[transparent]"}
     >
       <div
-        className="relative bg-cover"
+        className="relative bg-cover "
         style={{
           width: "100vw",
           height: "100vh",
@@ -48,7 +48,7 @@ const PageContact = () => {
               alt="logo"
             />
           </LazyLoad> */}
-          <div className="relative w-[400px] rounded-lg mt-16">
+          <div className="relative w-[400px] max-w-[95%] mx-auto rounded-lg mt-16">
             <img
               className="z-2 w-[120px] h-[120px] absolute top-[0%] left-[50%] translate-x-[-50%] translate-y-[-50%] "
               src={`assets/images/logo_circle.png`}
